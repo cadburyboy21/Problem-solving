@@ -1,4 +1,4 @@
-OUTPUT
+Output
 
 40 
 3.60 
