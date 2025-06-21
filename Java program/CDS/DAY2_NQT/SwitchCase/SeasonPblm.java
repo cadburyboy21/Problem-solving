@@ -26,8 +26,9 @@ public class SeasonPblm {
             default:
                 System.out.println("Invalid month! Please enter a number between 1 and 12.");
         }
-        
     }
+   
+
 }
 
 // output
