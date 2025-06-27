@@ -6,6 +6,8 @@ public class SeasonPblm {
         switch (month) {
             case "Dec":
             case "Jan":
+
+            
             case "Feb":
                 System.out.println("Climate: Winter Season");
                 break;
