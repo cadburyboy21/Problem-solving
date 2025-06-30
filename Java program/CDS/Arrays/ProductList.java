@@ -27,3 +27,14 @@ public class ProductList {
         scanner.close();
     }
 }
+
+// Output
+
+// Enter the number of products:
+// 2
+// Enter product 1: pen
+// Enter product 2: scale
+
+// Products:
+// pen
+// scale
