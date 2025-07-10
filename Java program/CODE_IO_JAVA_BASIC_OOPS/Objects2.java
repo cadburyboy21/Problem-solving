@@ -8,19 +8,20 @@ class AppForm{
         System.out.println(name);
         System.out.println(rollNo);
     }
-    public void Setvalues(String nam,int no){
-        name=nam;
-        rollNo=no;
+    public AppForm (String nam,int no){
+        this.name=nam;
+        this.rollNo=no;
     }
 }
 public class Objects2 {
     public static void main(String[] args) {
-        AppForm t=new AppForm();
-        t.Setvalues("puvi", 51); // using parameter values
+        AppForm t=new AppForm("puvi", 51); // using parameter values
         t.Display();
 
-        AppForm t1=new AppForm();
-        t1.Setvalues("Ram", 52); // using parameters values
-        t1.Display();
+        // AppForm t1=new AppForm();
+        // t1.p1("Ram", 52); // using parameters values
+        // t1.Display();
     }
+
 }
+

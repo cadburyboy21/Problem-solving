@@ -1,7 +1,7 @@
 package CODE_IO_JAVA_BASIC_OOPS;
 
 class AccessSpecifiers {
-    private String name;
+    private String name; 
     int RollNumber;
 
     public  void Display(){
@@ -21,7 +21,7 @@ class AccessSpecifiers {
 class main{
     public static void main(String[] args) {
         AccessSpecifiers t=new AccessSpecifiers();
-        t.Setvalues("Ram", 7);
+        t.Setvalues("Ram",21);
         t.Display();
 
         AccessSpecifiers t1=new AccessSpecifiers();

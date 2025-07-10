@@ -1,4 +1,6 @@
 package CODE_IO_JAVA_BASIC_OOPS;
+import java.util.*;
+
 class AppForm{
     String name;
     int rollNo;
@@ -7,12 +9,18 @@ class AppForm{
         System.out.println(name);
         System.out.println(rollNo);
     }
+
 }
 class ClassndObject{
     public static void main(String[] args) {
         AppForm t=new AppForm();
-        t.name="Puvi";
-        t.rollNo=12345;
+        Scanner sc = new Scanner(System.in);
+        String name = sc.nextLine();
+        int rollNo = sc.nextInt();
+
+        t.name= name;
+        t.rollNo= rollNo;
+
         t.Display();
 
         AppForm t1= new AppForm();
