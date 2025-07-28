@@ -9,11 +9,10 @@ public class ThrowKeyword {
     }
 
     public static void main(String[] args) {
-            int a=5;
             try{
             Check(17);
             }
-            catch(ArithmeticException E){
+            catch(Exception E){
                 System.out.println(E.getMessage());
 
             }
