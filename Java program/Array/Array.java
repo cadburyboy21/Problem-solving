@@ -221,7 +221,20 @@ public class Array {
 
       //------------------------------------------------------------------------------------
       
-      int arr[]={1,2,3,4,5,6,7};
+      int arr[]={2,3,4,5,6};
+      int ele=1;
+      int pos=arr[0];
+      int len=arr.length;
+
+      for(int i=len-1;i<=pos;i--){
+         arr[i+1]=arr[i];
+      }
+      arr[0]=ele;
+      System.out.println(Arrays.toString(arr));
+
+
+
+
       
 
 
